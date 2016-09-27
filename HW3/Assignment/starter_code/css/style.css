@@ -1,0 +1,177 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+	 color: #fff ;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif; 
+     background:#efefee;  
+}
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+h1 {
+     font-family: 'Open Sans', sans-serif; 
+     color: #043049;  
+     font-weight:400;
+     font-size:40px;
+}
+h3 {
+	color: #043049;  
+     font-weight:400;
+     font-size:30px;
+}
+ul {
+	list-style-type: none;
+	padding-left:0px;
+
+}
+ul li a {
+	text-decoration:none;
+    color: #043049;  
+    padding:0;
+}
+ul li a:hover {
+	color:#f8e32f;
+}
+header {
+	width:100%;
+}
+
+
+main, .headerWrapper {
+	width:960px;
+	margin:0px auto;
+
+
+}
+main {
+	margin-top:60px;
+}
+
+header {
+	background-color:#043049;
+}
+.headerWrapper{
+
+	height:120px;
+	padding-top:20px;
+	
+}
+.logo {
+	font-size:50px;
+	font-weight:800;
+	width:30%;
+	padding:0px;
+	margin-top: 5px;
+	float:left;
+}
+
+
+.myNav {
+	text-align: right;
+	display: inline-block;
+	width:70%;
+	padding-top:32px;
+	margin:0;
+	float:right;
+
+}
+.myNav a {
+	color:#f8e32f;
+	font-size:23px;
+	font-weight:400;
+	margin-right:30px;
+	text-decoration: none;
+}
+.myNav a:hover{
+	color:#ffffff;
+}
+nav a:hover {
+	color:#fff;
+}
+.leftCol {
+	float:left;
+	width:700px;
+	margin-right:20px;
+}
+.rightCol {
+	float:left;
+	width:200px;
+}
+article {
+	border-bottom:solid 1px #043049;
+	padding-bottom:25px;
+}
+article p {
+	color: #666666;
+	font-size:23px;
+	line-height:30px;
+	font-weight:300;
+}
+
+article p:first-child:first-letter {
+	font-size:50px;
+}
+
+.readMore {
+	text-align: right;
+}
+
+.readMore a {
+	text-decoration:none;
+	font-size:15px;
+	color:#043049;
+	font-size:22px;  
+}
+.readMore a:hover {
+	color:#f8e32f;
+}
+.sideBox {
+	color: #043049; 
+	font-size:18px;
+	line-height:24px;
+}
+.learnMore {
+	font-weight:bold;
+	color: #043049; 
+	text-decoration:none;
+}
+
+.adBox {
+	background-color: #fff;
+	padding-left:4px;
+	padding-top:4px;
+	height:400px;
+	width:100%;
+	text-align: center;
+	margin-top:30px;
+}
+footer {
+	background:#f8e32f;
+	width:100%;
+	height:100px;
+	padding:40px 0;
+
+}
+footer {
+	margin:60px auto 0px auto;
+	text-align: center;
+}
+a.myBtn {
+	background:#043049; 
+	font-weight:700px;
+	font-size:16px;
+	color:#fff;
+	width:350px;
+	margin:0px auto;
+	text-align: center;
+	padding:12px 40px;
+	text-decoration:none;
+	border-radius:6px;
+
+}
