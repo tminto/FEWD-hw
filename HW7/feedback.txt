@@ -1,0 +1,23 @@
+Use media queries at a 768px breakpoint
+ - Good!
+As a user changes the size of a browser window:
+
+Content remains in appropriate divs
+ - Good!
+Content remains visible to the user
+ - Good use of percent based with on the content wrapper to achieve a scalable layout
+ - Your "#benfits ul" styling stays at hard coded 600px width, which causes some display problems on smaller screens. Changing this to a percent based width could solve this.
+ - Hiding the sidebar on the blog page keeps the page from being cramped, but you could also switch to a vertical layout
+Fonts change size appropriately
+ - Good use of font resizing in your menu
+Margins and padding change size appropriately
+ - Good!
+Content does not overlap
+ - Good!
+In the blog section, the two-column layout changes to a single-column layout when appropriate
+ - Good!
+
+Additional Comments:
+ - Good job overall. The updated spacing and text size maintain a nice mobile layout
+
+ - There are a couple hard coded pixel widths in the default CSS that aren't being switched to percentage based widths in your media query. These are causing some display problems at smaller resolutions.
