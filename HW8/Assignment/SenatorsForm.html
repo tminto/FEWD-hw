@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Your Senators</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet"> 
+
+</head>
+<body>
+<div class="container">
+<h1>Find My Senators</h1>
+	<form class="senatorSearchForm" name="seantorSearch">
+	<label for="states" class="selectLabel">I would like to find my senators from the state of:</label><Br>
+
+	  <select name="states">
+	    <option value="volvo">Alabama</option>
+	    <option value="saab">Alaska</option>
+
+	    <option value="audi">Arkansas</option>
+	  </select>
+	      <div class="btnContainer"><input type="submit" name="getSenators" value="Find Senators" id="findSenators"/></div>
+	</form>
+	<hr >
+	<h1>Contact My Senator</h1>
+	<div class="contactContainer clearfix">
+		<form class="senatorContactForm" name="seantorContact">
+			<div class="emailInputsContainer clearfix">
+				<div class="inputContainer clearfix">
+					<div class="labelContainer">
+						<label for="subject" class="">Subject:</label>
+					</div>
+					<div class="textElement">
+						<input type="text" name="subject">
+					</div>
+				</div>
+				<div class="inputContainer clearfix">
+					<div class="labelContainer">
+						<label for="senatorName" class="addressLabel">To:</label>
+					</div>
+					<div class="textElement">
+						<select name="states">
+						    <option value="Senator1">The Honorable Senator 1</option>
+						    <option value="Senator2">The Honorable Senator 2</option>
+						</select>
+					</div>
+				</div>
+				<div class="inputContainer clearfix">
+					<div class="labelContainer areaLabel">
+						<label for="emailArea" class="areaLabel">Message:</label>
+					</div>
+					<div class="textElement">
+						<textarea name="emailArea" class="emailArea"></textarea>
+					</div>
+				</div>
+			</div>
+	
+			<div class="btnContainer2"><input type="submit" name="sendMessage" value="Send Message" id="sendMessage"/></div>
+		</form>
+	
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script></body>
+</html>

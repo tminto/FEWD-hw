@@ -1,0 +1,101 @@
+body {
+	background:#B91100;
+	margin:100px 0;
+
+	color:#fff;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+h1 {
+	text-align: center;
+	color:#fff;
+	font-size:50px;
+}
+hr {
+	width:800px;
+	color:fff;
+	margin-top:40px;
+	height: 12px; 
+	border: 0; 
+	box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); 
+}
+
+.container {
+	width:1200;
+	margin:0px auto;
+	text-align:center;
+}
+
+.senatorSearchForm {
+	
+	color:#192E64;
+}
+
+.btnContainer, .btnContainer2 {
+	margin-top:30px;
+}
+
+
+input[type=submit] {
+    padding:10px 15px; 
+    background:#2D4587; 
+    border:0 none;
+    color:#fff;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0px -2px 1px black;
+
+}
+.selectLabel {
+	color:#fff;
+	margin-bottom:30px;
+	display:inline-block;
+}
+.inputContainer {
+	margin-top:20px;
+	text-align: left;
+}
+.contactContainer {
+	width:731px;
+	margin:0px auto;
+}
+.senatorContactForm {
+	float:left;
+	color:#192E64;
+	width:100%;
+}
+.senatorContactForm label {
+	color:#fff;
+}
+textarea {
+	width:635px;
+	height:500px;
+	padding:10px;
+}
+.btnContainer2 {
+	width:132px;
+	float:right;
+}
+.labelContainer {
+	width:60px;
+	text-align: right;
+	float:left;
+	margin-right:11px;
+}
+
+div.areaLabel {
+	padding-bottom:10px;
+}
+div.textElement {
+	float:left;
+	width:500px;
+}
+.emailInputsContainer {
+	width:100%;
+}
